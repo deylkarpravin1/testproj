@@ -1,0 +1,57 @@
+what is predicate
+service discovery
+
+Jyoti
+shravanti
+
+180878 
+Over 5+ yrs of hands-on experience as Java Spring Boot Microservices Developer, 
+Hands on experience in Core Java, Spring Boot, Hibernate, JPA and REST API, MySQL, IntelliJ, Maven, Teamcity, Bitbucket
+
+Communication of Microserveses
+	1. we can use restTemplate to call one microservice to anather by providing url and returntype
+	2. second way is to use feign client to call in which we create a interface and annotate it with 	@FeignClient("service_name") and in that we can crate method with get post etc method and prowide url
+	and just use this service where ever need communication
+
+q. what are the methods of Thread class
+q. parallel stream
+q. hashtable hashing
+q. sort employee on the basis of age using stream api
+q. what are the types of propagation in Transactional
+q. what is static typing , dynamic typing
+q. what will happen if we throw exception from try and finally
+q. what are stereotype annotations, give names
+q. what is solid principle
+q. REST principles
+q. thread Local
+q. reentrant lock
+
+reentrant lock
+threadLocal
+poolsize and max poolsize
+composit key and how to implement in spring boot
+how to connect multiple db 
+
+Asynchronys non blocking api using Reactive programming
+in this we use ReactiveCrudRepository for service
+Mono- it represent 0 or one object
+Flux- it represent 1 to n object
+
+O(1) -constant Time
+O(n) - Linear Time
+O(n2 (square)) - Quadratic Time (Bubble sort)
+O(log n) - Logarithmic Time - in each step we reduce the portion of input suppose divide array in half then check -Binary sort
+O(n log n) - Linearithmic Time - merge sort , quick sort
+
+
+Binary search:
+	in this the array should be in sorted
+step 1:to find mid we will use formula mid = low + (high - low)/2
+step 2: check if value at mid index is matching or not 
+step 3: if not matching then check number is less than mid of high than mid.
+step 4: if its less than mid then we will change high = mid -1 and repeat process
+step 5: if its greater than mid then we will change low = mid+1 and repeat process
+
+
+
+
